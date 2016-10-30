@@ -13,7 +13,7 @@ PEM=../Infrastruttura/iam_amazon.pem
 rsync -av \
   --exclude '.git*' \
   -e "ssh -i $PEM" \
-  public \
+  public/ \
   ubuntu@54.154.31.160:/www/agileday_new/agileday.it/htdocs/mini/2017/vimercate
 
 
