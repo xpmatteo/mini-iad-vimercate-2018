@@ -1,4 +1,8 @@
 
+Me in the organizers
+
+Fix header img
+
 Form CFP
 
 Testo di accompagnamento CFP
