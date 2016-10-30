@@ -1,9 +1,5 @@
 
-Me in the organizers
-
-Fix header img
-
-Form CFP
+Email dell'organizzazione
 
 Testo di accompagnamento CFP
 
