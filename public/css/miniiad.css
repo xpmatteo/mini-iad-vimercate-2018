@@ -294,3 +294,17 @@ td.prtd_lightning {
 .img-slideshare {
 	height: 26px;
 }
+
+#keynote p {
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 5pt;
+}
+
+#rans-bio {
+  margin-top: 2em;
+}
+
+h2 {
+  margin-top: 3em;
+}
