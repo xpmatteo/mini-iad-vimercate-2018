@@ -154,46 +154,31 @@
 	list-style-type: none;
 }
 
-.abstract-link {
-	color: black;
-}
-
 .abstracts {
 	margin-top: 30px;
 	background: white;
 	padding: 10px;
+  text-align: justify;
 }
 
-.abstract-div {
-	text-align: left;
-}
-
-.abstract-time {
-	float: left;
-	padding: 10px;
-}
-
-.abstract-content {
-	margin-left: 60px;
+.abstract {
+	margin-left: 30px;
+	margin-right: 30px;
 	padding: 10px;
 	background: rgba(0, 170, 212, 0.25);
 }
 
-.abstract-content.alt {
+.abstract.alt {
 	background: rgba(0, 170, 212, 0.15);
 }
 
-.abstract-title {
+.abstract h3 {
 	display: inline-block;
 	font-weight: bold;
 }
 
-.abstract-speaker {
+.abstract h4 {
 	font-style: italic;
-}
-
-.abstract-text {
-	margin: 15px auto 15px;
 }
 
 @media print {
@@ -264,6 +249,11 @@ table.prtbl {
 	border: 20px solid white;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.prtbl a {
+	color: black;
+  text-decoration: underline;
 }
 
 .prtbl th {
