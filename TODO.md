@@ -1,5 +1,5 @@
 
  + riassunto angela
  + togli underline
- - accorcia tempi
- - numero partecipanti per workshop
+ + accorcia tempi
+ + numero partecipanti per workshop
