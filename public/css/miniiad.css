@@ -1,9 +1,14 @@
+body {
+  overflow-x: hidden;
+}
 
 .brand-frame {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 25px;
   padding: 15px;
   padding-top: 40px;
+  margin-bottom: 100px;
+  margin-top: 120px;
 }
 
 .link-iscrizione {
@@ -11,35 +16,49 @@
   border-radius: 15px;
 }
 
-#location {
-  background: rgba(0, 170, 212, 0.1);
-}
 
-#c4p {
-  background: rgba(0, 170, 212, 0.2);
-}
 
-#sponsor {
-  background: white;
-  _background: rgba(0, 170, 212, 0.2);
-}
-
-#iscrizione {
-  background: rgba(0, 170, 212, 0.1);
-}
-
-/*#programma {*/
-/*background: rgba(0, 170, 212, 0.2);*/
+/*#iscrizione {*/
+  /*background: #e8f6fa;*/
+  /*position: relative;*/
+  /*padding-bottom: 110px;*/
 /*}*/
 
-#staff {
-  background: white;
-  _background: rgba(0, 170, 212, 0.3);
-}
+/*#iscrizione:after {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*bottom: -70px;*/
+  /*left: -50px;*/
+  /*height: 110px;*/
+  /*width: 130%;*/
+  /*background-color: #e8f6fa;*/
+  /*-webkit-transform: rotate(4deg);*/
+  /*-ms-transform: rotate(4deg);*/
+  /*transform: rotate(4deg);*/
+  /*z-index: 10;*/
+/*}*/
 
-#staytuned {
-  background: rgba(0, 170, 212, 0.2);
-}
+/*#programma {*/
+  /*background-color: #212529;*/
+  /*color: #fff;*/
+  /*position: relative;*/
+  /*padding-bottom: 110px;*/
+/*}*/
+
+/*#programma:after {*/
+  /*content: "";*/
+  /*position: absolute;*/
+  /*bottom: -40px;*/
+  /*left: -50px;*/
+  /*height: 110px;*/
+  /*width: 130%;*/
+  /*background-color: #212529;*/
+  /*-webkit-transform: rotate(-4deg);*/
+  /*-ms-transform: rotate(-4deg);*/
+  /*transform: rotate(-4deg);*/
+  /*z-index: 10;*/
+/*}*/
+
 
 .staff_member {
   display: inline-block;
@@ -295,3 +314,51 @@ hr {
 #headerimg {
   max-width: 100%;
 }
+
+.section {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+
+.section:after {
+  content: "";
+  position: absolute;
+  left: -50px;
+  height: 110px;
+  width: 130%;
+  z-index: 10;
+}
+
+.section--left:after {
+  bottom: -40px;
+  -webkit-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+
+.section--right:after {
+  bottom: -70px;
+  -webkit-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+.section--light,
+.section--light:after {
+  background-color: #fff;
+}
+
+.section--dark,
+.section--dark:after {
+  background-color: #212529;
+  color: #fff;
+}
+
+.section--medium,
+.section--medium:after {
+  background: #e8f6fa;
+}
+
+
+

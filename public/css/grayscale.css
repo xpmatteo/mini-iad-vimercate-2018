@@ -50,7 +50,7 @@ a:focus {
 }
 .navbar {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #ffffff;
@@ -86,10 +86,9 @@ a:focus {
 }
 @media (min-width: 767px) {
   .navbar {
-    padding: 10px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: rgba(255, 255, 255, 0.3);    
+    background: rgba(255, 255, 255, 1);
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
@@ -202,10 +201,8 @@ a:focus {
     transform: scale(1);
   }
 }
-.content-section {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+
+
 .download-section {
   width: 100%;
   padding: 50px 0;
@@ -223,9 +220,6 @@ a:focus {
   margin-top: 50px;
 }
 @media (min-width: 767px) {
-  .content-section {
-    /*padding-top: 250px;*/
-  }
   .download-section {
     padding: 100px 0;
   }
