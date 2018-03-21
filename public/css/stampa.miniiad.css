@@ -18,11 +18,6 @@
 	padding-top: 40px;
 }
 
-.link-iscrizione {
-	background-color: rgba(0, 128, 0, 0.6);
-	border-radius: 15px;
-}
-
 #location {
 	background: rgba(0, 170, 212, 0.2);
 }
@@ -180,24 +175,6 @@ td.prtd_lightning {
 	zoom: 0.8;
 }
 
-.btn-cta {
-	_background: rgba(226, 204, 102, 1);
-	_background: rgba(0, 170, 212, 0.3);
-	background: #5AB953;
-	color: white;
-	border-color: #49A34B;
-	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.btn-cta:hover, .btn-cta:focus {
-	background: #49A34B;
-	box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.btn-cta:active {
-	box-shadow: none;
-}
-
 .well {
 	background: white;
 	padding: 2em 0;
@@ -206,27 +183,6 @@ td.prtd_lightning {
 
 .box-eventbrite {
 	position: relative;
-}
-
-.save-the-date {
-	text-transform: uppercase;
-	font-size: 140%;
-	background: rgb(0, 170, 212);
-	color: white;
-	font-weight: bold;
-}
-
-.btn-iscriviti {
-	background-color: green;
-	color: white;border; 5px;
-}
-
-.info-iscrizione {
-	text-align: left;
-	font-size: 20px;
-	line-height: 1.6;
-	margin: 50px 150px auto 150px;
-	list-style-type: none;
 }
 
 .abstract-link {
@@ -269,4 +225,30 @@ td.prtd_lightning {
 
 .abstract-text {
 	margin: 15px auto 15px;
+}
+
+@media print {
+  table {
+    border: 1px solid black;
+  }
+
+  tr {
+    border: 1px solid black;
+  }
+
+  td {
+    border: 1px solid black;
+  }
+
+  th {
+    border: 1px solid black;
+  }
+
+  .programma {
+    page-break-before: always;
+  }
+
+  .abstracts {
+    page-break-before: always;
+  }
 }
