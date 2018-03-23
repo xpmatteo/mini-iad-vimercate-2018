@@ -219,18 +219,6 @@ img::-moz-selection {
   height: 150px;
 }
 
-.sponsor-container {
-  margin-bottom: 80px;
-}
-
-.sponsor-line {
-}
-
-.sponsor-div {
-  display: inline-block;
-  margin: 50px 90px auto 90px;
-}
-
 .well {
   background: white;
   padding: 2em 0;
@@ -519,5 +507,5 @@ hr {
 
 .sponsor__logo {
   width: 200px;
-  margin-top: 30px;
+  margin: 30px;
 }
