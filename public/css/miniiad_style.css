@@ -365,14 +365,14 @@ hr {
   z-index: 10;
 }
 
-.section--left:after {
+.section:nth-child(even):after {
   bottom: -40px;
   -webkit-transform: rotate(-4deg);
   -ms-transform: rotate(-4deg);
   transform: rotate(-4deg);
 }
 
-.section--right:after {
+.section:nth-child(odd):after {
   bottom: -70px;
   -webkit-transform: rotate(4deg);
   -ms-transform: rotate(4deg);
@@ -395,12 +395,13 @@ hr {
   background: #e8f6fa;
 }
 
-.section--last {
+.section:nth-last-of-type(1) {
   padding-top: 0;
   padding-bottom: 20px;
 }
 
-.section--last:after {
+.section:nth-last-of-type(1):after,
+.section:nth-last-of-type(2):after {
   display: none;
 }
 
