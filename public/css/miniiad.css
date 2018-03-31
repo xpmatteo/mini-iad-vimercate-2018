@@ -29,7 +29,7 @@ h6 {
 
 p {
   margin: 0 0 10px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -111,13 +111,12 @@ a:focus {
 
 .btn-primary,
 .btn-primary:hover,
-.btn-primary:focus  {
+.btn-primary:focus {
   border: 1px solid #ea9316;
   color: #fff;
   background-color: #ea9316;
   outline: none;
 }
-
 
 /* social */
 .banner-social-buttons {
@@ -233,14 +232,73 @@ img::-moz-selection {
 }
 
 /* keynote */
-#keynote p {
-  text-align: justify;
-  margin-top: 0;
-  margin-bottom: 5pt;
+.keynote__title {
+  color: #ea9316;
+  font-style: italic;
 }
 
-#rans-bio {
-  margin-top: 2em;
+.keynote__title a {
+  color: #ea9316;
+  font-style: italic;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.keynote__bio {
+  margin-top: 50px;
+  text-align: left;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  background-color: rgba(234, 147, 22, 0.1);
+  padding: 10px 20px;
+}
+
+@media (min-width: 767px) {
+  .keynote__title {
+    font-size: 30px;
+  }
+}
+
+.speaker {
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media (min-width: 767px) {
+  .speaker {
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+}
+
+.speaker__description {
+  font-size: 18px;
+}
+
+.speaker__img {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.speaker__name {
+  background-color: #ea9316;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px;
+  -webkit-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  width: 200px;
+  margin: auto;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.speaker__name a {
+  color: #fff;
 }
 
 /* schedule */
