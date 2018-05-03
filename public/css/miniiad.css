@@ -568,3 +568,30 @@ hr {
   width: 200px;
   margin: 30px;
 }
+
+.schedule {
+  background-color: #fff;
+  color: #000;
+  padding: 0 10px;
+}
+
+.schedule__speaker {
+  color: #ea9316;
+  font-size: 14px;
+  display: block;
+}
+
+.schedule__title {
+  color: black !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.schedule__row {
+  border-bottom: 1px solid #212529;
+  padding: 10px 0;
+}
+
+.schedule__slot {
+  margin-bottom: 30px;
+}
