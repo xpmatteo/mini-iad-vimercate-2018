@@ -613,7 +613,7 @@ hr {
   background-color: rgba(234, 147, 22, 0.1);
 }
 
-@media (min-width: 767px) {
+@media (min-width: 992px) {
   .schedule__slot {
     min-height: 220px;
   }
