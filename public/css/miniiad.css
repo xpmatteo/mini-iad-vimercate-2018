@@ -602,6 +602,10 @@ hr {
   margin-bottom: 5px;
 }
 
+.schedule__title {
+  cursor: pointer;
+}
+
 .schedule__event {
   color: #000;
   font-weight: normal;
@@ -686,3 +690,21 @@ hr {
   margin-right: 5px;
 }
 
+.modal .modal-body {
+  color: #000;
+}
+
+.modal .modal-body .talk-description {
+  display: none;
+}
+
+.modal .modal-body .talk-description--selected {
+  display: block;
+}
+
+.modal .modal-body .talk-description strong,
+.modal .modal-body .talk-description i {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
