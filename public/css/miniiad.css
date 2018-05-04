@@ -694,17 +694,24 @@ hr {
   color: #000;
 }
 
-.modal .modal-body .talk-description {
+.modal .modal-body .talk__description {
   display: none;
 }
 
-.modal .modal-body .talk-description--selected {
+.modal .modal-body .talk__description--selected {
   display: block;
 }
 
-.modal .modal-body .talk-description strong,
-.modal .modal-body .talk-description i {
+.modal .modal-body .talk__title {
+  display: none;
+}
+
+.modal .modal-body .talk__speaker {
   display: block;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+.modal .modal-title {
+  color: #ea9316;
+  letter-spacing: 0;
 }
