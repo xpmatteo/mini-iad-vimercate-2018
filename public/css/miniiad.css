@@ -588,6 +588,10 @@ hr {
   border: 1px solid #ea9316;
 }
 
+.schedule__intro {
+  text-align: left;
+}
+
 .schedule__speaker {
   color: #000;
   display: block;
