@@ -681,11 +681,15 @@ hr {
 }
 
 .schedule__type,
-.schedule__venue {
+.schedule__venue,
+.schedule__slide {
   font-size: 12px;
   color: #808080;
   display: block;
-  margin-bottom: 5px;
+}
+
+.schedule__slide a {
+  color: #808080;
 }
 
 .schedule__tags--keynote .schedule__type,
